@@ -11,11 +11,7 @@ namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const tile6 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
-    export const tile7 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
     export const tile8 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
-    export const tile9 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile10 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
@@ -54,6 +50,26 @@ namespace myTiles {
     export const tile23 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile26 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile27 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile28 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile29 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile30 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile31 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile7 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile32 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile33 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile9 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile34 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -588,12 +604,8 @@ namespace myTiles {
             case "tile5":return tile5;
             case "myTile4":
             case "tile6":return tile6;
-            case "myTile5":
-            case "tile7":return tile7;
             case "myTile6":
             case "tile8":return tile8;
-            case "myTile7":
-            case "tile9":return tile9;
             case "myTile8":
             case "tile10":return tile10;
             case "myTile9":
@@ -632,6 +644,26 @@ namespace myTiles {
             case "tile23":return tile23;
             case "myTile24":
             case "tile26":return tile26;
+            case "myTile25":
+            case "tile27":return tile27;
+            case "myTile26":
+            case "tile28":return tile28;
+            case "myTile27":
+            case "tile29":return tile29;
+            case "myTile28":
+            case "tile30":return tile30;
+            case "myTile29":
+            case "tile31":return tile31;
+            case "myTile5":
+            case "tile7":return tile7;
+            case "myTile30":
+            case "tile32":return tile32;
+            case "myTile31":
+            case "tile33":return tile33;
+            case "myTile7":
+            case "tile9":return tile9;
+            case "myTile32":
+            case "tile34":return tile34;
         }
         return null;
     })
