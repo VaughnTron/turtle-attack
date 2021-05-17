@@ -223,6 +223,9 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile19`, function (sprite, 
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile6`, function (sprite, location) {
     tiles.setWallAt(location, true)
 })
+scene.onOverlapTile(SpriteKind.Enemy, assets.tile`myTile30`, function (sprite, location) {
+    tiles.setWallAt(location, true)
+})
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile15`, function (sprite, location) {
     tiles.setTileAt(location, sprites.castle.tileGrass3)
     if (sprite == TurtleRed) {
@@ -236,7 +239,7 @@ function make_map () {
         tiles.setTileAt(tiles.getTileLocation(randint(0, 254), randint(0, 254)), assets.tile`myTile9`)
     }
     for (let index = 0; index < 1200; index++) {
-        tiles.setTileAt(tiles.getTileLocation(randint(0, 254), randint(0, 254)), assets.tile`myTile7`)
+        tiles.setTileAt(tiles.getTileLocation(randint(0, 254), randint(0, 254)), assets.tile`myTile32`)
     }
     for (let index = 0; index < 1200; index++) {
         tiles.setTileAt(tiles.getTileLocation(randint(0, 254), randint(0, 254)), assets.tile`myTile4`)
@@ -245,7 +248,7 @@ function make_map () {
         tiles.setTileAt(tiles.getTileLocation(randint(0, 254), randint(0, 254)), assets.tile`myTile6`)
     }
     for (let index = 0; index < 1200; index++) {
-        tiles.setTileAt(tiles.getTileLocation(randint(0, 254), randint(0, 254)), assets.tile`myTile5`)
+        tiles.setTileAt(tiles.getTileLocation(randint(0, 254), randint(0, 254)), assets.tile`myTile30`)
     }
     for (let index = 0; index < 1200; index++) {
         tiles.setTileAt(tiles.getTileLocation(randint(0, 254), randint(0, 254)), assets.tile`myTile8`)
@@ -299,9 +302,6 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile9`, function (sprite, l
 function extra_sprites () {
 	
 }
-scene.onOverlapTile(SpriteKind.Enemy, assets.tile`myTile5`, function (sprite, location) {
-    tiles.setWallAt(location, true)
-})
 function CallPlayer1 () {
     info.setLife(10)
     TurtleRed = sprites.create(img`
@@ -833,9 +833,6 @@ sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSp
         }
     }
 })
-scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile5`, function (sprite, location) {
-    tiles.setWallAt(location, true)
-})
 scene.onOverlapTile(SpriteKind.Enemy, assets.tile`myTile6`, function (sprite, location) {
     tiles.setWallAt(location, true)
 })
@@ -846,6 +843,9 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
     otherSprite.setPosition(randint(0, 225), randint(0, 225))
     sprite.destroy()
     info.changeScoreBy(10)
+})
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile30`, function (sprite, location) {
+    tiles.setWallAt(location, true)
 })
 let redfire: Sprite = null
 let mySprite2: Sprite = null

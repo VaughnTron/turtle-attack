@@ -208,6 +208,48 @@
         "tilemapTile": true,
         "displayName": "myTile32"
     },
+    "tile35": {
+        "data": "hwQQABAAAADMzMzMzMzMyry6zKzMzMzKzMy8usury6vMrMzMyqrMzKusy8zMvMzMusyqy7zMzMrMzMzKqqyqy7zLzMzLzMzMq7rKzMzMvLrMzMzMrKvMzMy8yrusqrzLvKrKysyrzMqsusu6yszMyszMzKrMzMzKq6rKusqrusvMzMzMyrrMzA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile33"
+    },
+    "tile36": {
+        "data": "hwQQABAAAACqysvKrMqsu8ysrMrLvKy6zKqsvNvLy6rLysy73c3LrMq8y8zdzcvMyrzdzN3Nzcu8293L27vNu7zd3bvb28urvN3d27vdzKvb3d3b27u8q9vdvb27vLur2727zcu8u8vbvdvLzLy7zLzbvczMu8uszMzLzLzLrKzKysysqqqqvA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile34"
+    },
+    "tile37": {
+        "data": "hwQQABAAAADLysrMu6vMzKvKysaqysq7rMtmZszMqqqszGZqbMbMrKxspmpm9syqzGyqpmr8T7y7Zqpqamb8vqpquqrGZvruvKqqamrM+u68u2pmavavzGy7qmpq/KrsrLasambG78TMxqama8bPzLrLbLbG/MzMq8q8ZsbMu6rMqruqyqyqug==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile35"
+    },
+    "tile38": {
+        "data": "hwQQABAAAADKzKqqzLzLzMrLzLvM27vKu8y83avbzardqrrdq7rNytvLvN27vKuqvMzL27vMvKzKvN3MzKrKu6q63cvKzLy9zMu7y7rL2728zLysyszbzbu9zMy7zNuq292rur2ru6rbvcu83au7vNu9y7zdu8vLvLuqzLvLu6zMqsrMvKyqyg==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile36"
+    },
+    "tile39": {
+        "data": "hwQQABAAAADMbGaIZojIzMamqqaKZvjMbKpqqmaGZs+mqqqqqmrm/qaqqqqqZuj+pqqqqmpmhv6mqqqqpqpmhqaqqqqqambupqqqqqpmiOimqqqqamaG+KaqqqqqZmb/pqqqqqZqhv+mqqqqaoaI+GyqaqpqZojPZqaqpopm+MzMbGaIZojIzA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile37"
+    },
+    "tile40": {
+        "data": "hwQQABAAAACqzMzMzMysqqrMzMzMrMqszKr/////yqzM+r2tqvrMzMzfvevu/szMzN+6q6r6zMzM787s7v7MzMyv3Mqq+szMzK+8zar6zMzM787s7v7MzMyvuquq+szMzO++6+79zMzM+tqr2v3MzMys/////8ysyszMzMzMrKqqzMzMzMysqg==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile38"
+    },
+    "tile41": {
+        "data": "hwQQABAAAACqzMzMzMysqqrMzMzMrMqszPr/////yqzMv4WtqvrMzPy+U+vu/szM/Lolq6r6zMz8zlXs7v7MzPzcdcqq+szM/LxXzar6zMz8zlXs7v7MzPy6Uquq+szM/L6F6+7+zMzM31OrqvrMzMz6/////8ysyszMzMzMrKqqzMzMzMysqg==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile39"
+    },
     "level1": {
         "id": "level1",
         "mimeType": "application/mkcd-tilemap",
